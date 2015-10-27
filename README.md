@@ -13,14 +13,7 @@ bunch of static, localized output files.
 
 ### Checkout
 
-    git clone git://github.com/mozilla/fhr-jelly.git
-
-The localization files will live in SVN, but do not exist yet.
-Check them out into the subdirectory
-"locale" to pull in translations.
-
-    cd fhr-jelly
-    svn checkout https://svn.mozilla.org/projects/l10n-misc/trunk/firefoxhealthreport/locale/
+    git clone --recurse-submodules git://github.com/mozilla/fhr-jelly.git
 
 ### Choosing a build version
 
